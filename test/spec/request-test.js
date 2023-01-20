@@ -4,7 +4,7 @@ var childProcess = require('child_process'),
     errors = require('../../errors'),
     path = require('path'),
     rp = require('../../'),
-    tough = require('tough-cookie'),
+    tough = require('@postman/tough-cookie'),
     startServer = require('../fixtures/server.js');
 
 
